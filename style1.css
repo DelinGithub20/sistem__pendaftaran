@@ -1,0 +1,224 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* syntak css */
+
+body {
+  font-family: monospace;
+  background-color: rgba(129, 176, 227, 0.2);
+}
+
+.container {
+  max-width: 50rem;
+  margin: 3.2rem auto;
+  padding: 1.25rem;
+  background-color: #9dbded;
+  border-radius: 10px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.container h1 {
+  font-size: 2rem;
+  font-weight: 800;
+  text-align: center;
+  color: whitesmoke;
+  margin-bottom: 1rem;
+}
+
+label {
+  display: block;
+  font-size: 1rem;
+}
+
+.card {
+  margin: 0.5rem;
+  padding: 0.6rem;
+  background-color: aliceblue;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 1rem;
+  margin-top: 1rem;
+  background-color: #fff;
+  color: #323640;
+  font-size: 0.8rem;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 3px 5px -1px, rgba(0, 0, 0, 0.14) 0 6px 10px 0, rgba(0, 0, 0, 0.12) 0 1px 18px 0;
+  border: none;
+}
+
+button.submit:hover {
+  background-color: #3b3be6;
+  color: #fff;
+}
+
+button.reset:hover {
+  background-color: #3be23b;
+  color: #fff;
+}
+
+/* CSS untuk kelas "box" */
+.box {
+  max-width: 50rem;
+  background-color: #f2f2f2;
+  padding: 1.2rem;
+  margin: 2rem auto;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.box h2 {
+  font-family: monospace;
+  font-size: 1.7rem;
+  font-weight: 500;
+  color: #3f7cd6;
+  text-align: center;
+}
+
+/* CSS untuk tabel pada "box" */
+.box table {
+  background-color: #fff;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.box th,
+.box td {
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
+#alert {
+  color: red;
+  font-weight: bold;
+  margin-top: 15px;
+}
